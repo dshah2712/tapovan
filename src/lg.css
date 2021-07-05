@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    /* overflow: hidden; */
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #603bbb;
+    cursor: pointer;
+  }
+  
+  .login {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background: #e9e9e9;
+    display: flex;
+  }
+  
+  .login .loginContainer {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .login .loginContainer label {
+    color: #101522;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .login .loginContainer input {
+    width: 100%;
+    font-size: 19px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #868b91;
+    padding: 10px;
+    color: #101522;
+    letter-spacing: 1px;
+  }
+
+  
+  
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  .login .loginContainer .btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+    color: #101522;
+  }
+  
+  .login .loginContainer .btnContainer p span {
+    color: rgb(70, 67, 221);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .login .loginContainer .btnContainer p span:hover {
+    color: rgb(12, 0, 117);
+  }
+  
+  .login .loginContainer .errorMsg {
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+  }
+  
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+  }
+  
+  .hero nav {
+    background: #ffffff;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero nav h2 {
+    color: #101522;
+  }
+  
+  .hero nav button {
+    width: 86px;
+    padding: 8px 0;
+    background: #d6d2dd;
+  }
+  
+  .text{
+    color: #101522;
+    font-size: 3rem;
+    padding-right: 6.5rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+  }
+  .text1{
+    color: #101522;
+    font-size: 3rem;
+    padding-right: 7.5rem;
+    padding-top: 2rem;
+    font-weight: bolder;
+  }
+  .text2{
+    color:#101522;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:0.1rem;
+    padding-bottom: 1rem;
+  }
+  .select {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #868b91;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    padding: 5px 15px;
+    background-color: white;
+    margin: 0.5em 0;
+  }
+  
+  select:hover,
+  select:focus {
+    border-color: #1f1f1f;
+  }
+  
+  select:focus {
+    box-shadow: 0px 10px 20px -13px rgba(32, 56, 117, 0.45);
+  }
+
+  .label {
+    display: flex;
+    flex-direction: column;
+  }
